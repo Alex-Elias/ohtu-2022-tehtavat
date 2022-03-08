@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-web"
+version = "0.0.0"
+description = "Exercise 1 for week 2 in Ohjelmisto tuotanto"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.3"
+pytest = "^7.0.1"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
